@@ -3,21 +3,15 @@
 
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon" type="image/png" href="/favicon.png"/>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Personal Portfolio</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -25,10 +19,7 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -43,54 +34,51 @@
 
     gtag('config', 'UA-169007209-3');
   </script>
+  
 
-
-
-  <!-- =======================================================
-  * Template Name: Personal - v2.1.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
   
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
-
-    <div class="container">
-      <h1><a href="index.html">Shreya Tadipaneni</a></h1>
-      <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header"> <span>Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-          <li><a href="#experience"> <span>Experience</span></a></li>
-<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li>
-          <li><a href="https://drive.google.com/file/d/1VG3h4ZpgCuqx_Av-8VJ8OUlQjNpeIo3w/view?usp=sharing" target="_blank"> <span>Resume</span></a></li>
-          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-          <li><a href="#contacts"> <span>Contact</span></a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-
+  <header id="header" class="header-fixed">
+    <nav class="nav-menu d-none d-lg-block">
+      <ul>
+        <li class="active"><a href="#home"> <span>Home</span></a></li>
+        <li><a href="#about"><span>About</span></a></li>
+        <li><a href="#education"><span>Education</span></a></li>
+        <li><a href="#experience"><span>Experience</span></a></li>
+        <li><a href="#portfolio"><span>Projects</span></a></li>
+        <li><a href="#skills"><span>Skills</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1VG3h4ZpgCuqx_Av-8VJ8OUlQjNpeIo3w/view?usp=sharing" target="_blank"><span>Resume</span></a></li>
+        <li><a href="#contacts"><span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Home Section -->
+  <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container">
+      <h1>Hi I'm Shreya Tadipaneni</h1>
+      <h2>I'm <span class="typing" style="color:#12D640"></span></h2>
       <div class="social-links">
-          <a href="https://www.linkedin.com/in/shreya-tadipaneni-22a4451a6/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/tadipaneni" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:shreyatadipaneni2@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
+        <a href="https://www.linkedin.com/in/shreya-tadipaneni-22a4451a6/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/tadipaneni" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="mailto:shreyatadipaneni2@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
       </div>
-
+      <div class="download-resume">
+        <a href="https://drive.google.com/file/d/1VG3h4ZpgCuqx_Av-8VJ8OUlQjNpeIo3w/view?usp=sharing" 
+           class="download-btn" 
+           target="_blank">
+          <div class="icon-container">
+            <i class="fas fa-download"></i>
+          </div>
+          <span>Download CV</span>
+        </a>
+      </div>
     </div>
-  </header><!-- End Header -->
+  </section>
+<div class="section-divider"></div>
 
 <!-- ======= About Section ======= -->
 <section id="about" class="about">
@@ -148,7 +136,7 @@
       <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
         <div class="icon-box" style="padding:20px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px;">
           <p class="fst-italic">
-            I am a motivated graduate student pursuing a Master's degree in Computer Science at Georgia State University on a full scholarship, with a strong academic foundation (GPA: 3.74). My passion lies in designing scalable and impactful solutions, supported by a blend of technical expertise and hands-on experience in software development, cloud computing, and AI/ML engineering.
+            I am a Master's student in Computer Science at Georgia State University, with a strong foundation in full-stack development, cloud computing, data analysis, and product management. With experience working as a Graduate Research Assistant and Software Engineering Intern, I have developed expertise in building efficient, scalable systems using AWS, PostgreSQL, Docker, and React.js. I specialize in data visualization, cloud architecture, and agile methodologies.
           </p>
           
           <div class="professional-journey mt-4">
@@ -160,105 +148,141 @@
 
           <div class="current-focus mt-4">
             <h4 style="color: #12d640;">Current Focus</h4>
-            <p>Currently seeking full-time Software Development Engineer (SDE) roles, focusing on:</p>
+            <p>Currently seeking full-time Software Development Engineer (SDE) roles, with a focus on the following positions:</p>
             <div class="row">
               <div class="col-md-6">
                 <ul style="list-style: none; padding-left: 0;">
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Software Development (Primary)</li>
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> AWS Cloud Development</li>
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Cloud Computing</li>
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> AI/ML Engineering</li>
-
+                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Software Engineer (Primary)</li>
+                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> AWS Cloud Developer</li>
                 </ul>
               </div>
               <div class="col-md-6">
                 <ul style="list-style: none; padding-left: 0;">
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> DevOps</li>
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Database Development</li>
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Data Analysis</li>
-                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Full Stack Development</li>
+                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Data Analyst</li>
+                  <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #12d640; margin-right: 10px;"></i> Product Manager</li>
                 </ul>
               </div>
             </div>
           </div>
+          <p> I am passionate about solving complex problems with cutting-edge technologies and driving business outcomes. Eager to contribute and grow within a dynamic tech team.</p>
         </div>
       </div>
     </div>
 
     <!-- Technical Expertise -->
-  <div class="interests container">
-    <div class="section-title">
-      <h2>Technical Expertise</h2>
+<!-- Technical Expertise -->
+<div class="interests container">
+  <div class="section-title">
+    <h2>Technical Expertise</h2>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-md-4">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-code" style="color: #ffbb2c;"></i>
+        </div>
+        <h3>Full Stack Development</h3>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-4">
-        <div class="icon-box">
-          <i class="ri-code-s-slash-fill" style="color: #ffbb2c;"></i>
-          <h3>Full Stack Development</h3>
+    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-cloud" style="color: #5578ff;"></i>
         </div>
+        <h3>Cloud Architecture</h3>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-        <div class="icon-box">
-          <i class="ri-cloud-line" style="color: #5578ff;"></i>
-          <h3>Cloud Architecture</h3>
+    </div>
+    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-database" style="color: #e80368;"></i>
         </div>
+        <h3>Database Design</h3>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-        <div class="icon-box">
-          <i class="ri-database-2-line" style="color: #e80368;"></i>
-          <h3>Database Design</h3>
+    </div>
+    <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-brain" style="color: #1c7d32;"></i>
         </div>
+        <h3>Machine Learning</h3>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-        <div class="icon-box">
-          <i class="ri-brain-line" style="color: #1c7d32;"></i>
-          <h3>Machine Learning</h3>
+    </div>
+    <div class="col-lg-3 col-md-4 mt-4">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-terminal" style="color: #28a745;"></i>
         </div>
+        <h3>DevOps</h3>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4">
-        <div class="icon-box">
-          <i class="ri-terminal-box-line" style="color: #28a745;"></i>
-          <h3>DevOps</h3>
+    </div>
+    <div class="col-lg-3 col-md-4 mt-4">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-chart-bar" style="color: #f1081f;"></i>
         </div>
+        <h3>Data Visualization</h3>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4">
-        <div class="icon-box">
-          <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
-          <h3>Data Visualization</h3>
+    </div>
+    <div class="col-lg-3 col-md-4 mt-4">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fab fa-react" style="color: #47aeff;"></i>
         </div>
+        <h3>React Development</h3>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4">
-        <div class="icon-box">
-          <i class="ri-reactjs-line" style="color: #47aeff;"></i>
-          <h3>React Development</h3>
+    </div>
+    <div class="col-lg-3 col-md-4 mt-4">
+      <div class="icon-box expertise-card">
+        <div class="expertise-icon">
+          <i class="fab fa-aws" style="color: #ffc107;"></i>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4">
-        <div class="icon-box">
-          <i class="ri-server-line" style="color: #ffc107;"></i>
-          <h3>AWS Services</h3>
-        </div>
+        <h3>AWS Services</h3>
       </div>
     </div>
   </div>
+</div>
 
     <!-- Achievements Section -->
-    <div class="section-title" style="margin-top: 30px;">
-      <h2>Achievements</h2>
-    </div>
-    <div class="icon-box" style="padding:20px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px;">
-      <ul style="list-style: none; padding-left: 0;">
-        <li style="margin-bottom: 15px;"><i class="ri-medal-line" style="color: #12d640; margin-right: 10px;"></i> Full Scholarship Recipient: Pursuing a Master’s in Computer Science at Georgia State University with a GPA of 3.74.</li>
-        <li style="margin-bottom: 15px;"><i class="ri-medal-line" style="color: #12d640; margin-right: 10px;"></i> AWS Certified Developer - Associate: Expertise in cloud optimization, achieving 90% cost savings through efficient AWS solutions.</li>
-        <li style="margin-bottom: 15px;"><i class="ri-medal-line" style="color: #12d640; margin-right: 10px;"></i> Conference Awardee: Recipient of the fully funded FLAIRS-37 Travel Grant for expanding AI knowledge at a prestigious conference in May 2024.</li>
-        <li style="margin-bottom: 15px;"><i class="ri-medal-line" style="color: #12d640; margin-right: 10px;"></i> Hackathon Enthusiast: Active participant in hackathons and technical communities, showcasing creativity and teamwork.</li>
-        <li style="margin-bottom: 15px;"><i class="ri-medal-line" style="color: #12d640; margin-right: 10px;"></i> Impact-Driven Developer: Enhanced user engagement by 40% in React-based applications and improved system accuracy to 90% in facial recognition projects.</li>
-        <li style="margin-bottom: 15px;"><i class="ri-medal-line" style="color: #12d640; margin-right: 10px;"></i> Global Collaboration Advocate: Active member of AIESEC, where I enhanced my leadership, communication, and teamwork abilities by working on international projects and fostering cross-cultural connections.</li>
-        <li style="margin-bottom: 15px;"><i class="ri-medal-line" style="color: #12d640; margin-right: 10px;"></i> Skilled Problem Solver: Completed CodePath’s Advanced Interview Prep (June-August 2024), strengthening technical and problem-solving skills to tackle challenging software engineering scenarios.</li>
-      </ul>
-    </div>
+<div class="section-title" style="margin-top: 30px;">
+  <h2>Achievements</h2>
+</div>
+<div class="icon-box" style="padding:20px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px;">
+  <ul style="list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 15px;">
+      <i class="fas fa-medal" style="color: #12d640; margin-right: 10px;"></i> 
+      Full Scholarship Recipient: Pursuing a Master's in Computer Science at Georgia State University with a GPA of 3.74.
+    </li>
+    <li style="margin-bottom: 15px;">
+      <i class="fas fa-award" style="color: #12d640; margin-right: 10px;"></i> 
+      AWS Certified Developer - Associate: Expertise in cloud optimization, achieving 90% cost savings through efficient AWS solutions.
+    </li>
+    <li style="margin-bottom: 15px;">
+      <i class="fas fa-trophy" style="color: #12d640; margin-right: 10px;"></i> 
+      Conference Awardee: Recipient of the fully funded FLAIRS-37 Travel Grant for expanding AI knowledge at a prestigious conference in May 2024.
+    </li>
+    <li style="margin-bottom: 15px;">
+      <i class="fas fa-medal" style="color: #12d640; margin-right: 10px;"></i> 
+      Hackathon Enthusiast: Active participant in hackathons and technical communities, showcasing creativity and teamwork.
+    </li>
+    <li style="margin-bottom: 15px;">
+      <i class="fas fa-award" style="color: #12d640; margin-right: 10px;"></i> 
+      Impact-Driven Developer: Enhanced user engagement by 40% in React-based applications and improved system accuracy to 90% in facial recognition projects.
+    </li>
+    <li style="margin-bottom: 15px;">
+      <i class="fas fa-trophy" style="color: #12d640; margin-right: 10px;"></i> 
+      Global Collaboration Advocate: Active member of AIESEC, where I enhanced my leadership, communication, and teamwork abilities by working on international projects and fostering cross-cultural connections.
+    </li>
+    <li style="margin-bottom: 15px;">
+      <i class="fas fa-medal" style="color: #12d640; margin-right: 10px;"></i> 
+      Skilled Problem Solver: Completed CodePath's Advanced Interview Prep (June-August 2024), strengthening technical and problem-solving skills to tackle challenging software engineering scenarios.
+    </li>
+  </ul>
+</div>
   </div>
 </section>
+
+<div class="section-divider"></div>
 <!-- End About Section -->
 
 <!-- ======= Education Section ======= -->
@@ -342,6 +366,8 @@
         </div>
       </div>
     </div>
+
+    <div class="section-divider"></div>
 
     <!-- Certifications Section -->
     <div class="section-title" style="padding-top: 30px;">
@@ -470,6 +496,7 @@
   </div>
 </section>
 <!-- End Education Section -->
+<div class="section-divider"></div>
 
 <!-- Start Experience Section -->
 <section id="experience" class="services">
@@ -545,7 +572,7 @@
 
 
 <!-- End Experience Section -->
-
+<div class="section-divider"></div>
 
 
 <!-- Start Project Section -->
@@ -621,61 +648,156 @@
 </section>
 
 <!-- End Project Section -->
-
+<div class="section-divider"></div>
 
 <!-- Start Skills Section -->
-<section id="skills" class="services">
+<section id="skills" class="skills-section">
   <div class="container">
     <div class="section-title">
       <h2>Skills</h2>
     </div>
-    <div class="row">
-      <div class="col-lg-12" data-aos="fade-up">
-        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <h4 style="text-align:left;color:#12d640">Languages & Databases</h4>
-          <p style="text-align:left;">
-            <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="java" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="javascript" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="typescript" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="python" height="50" width="150">
-            <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="mysql" height="70" width="130">
-            <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg" alt="postgresql" height="50" width="190">
-            <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="mongodb" height="50" width="120">
-          </p>
+
+    <!-- Languages & Web Development -->
+    <div class="skills-category">
+      <h4>Languages & Web Development</h4>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java">
+          <span>Java</span>
         </div>
-        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <h4 style="text-align:left;color:#12d640">Cloud, AI & DevOps</h4>
-          <p style="text-align:left;">
-            <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="aws" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg" alt="docker" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg" alt="kubernetes" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-ar21.svg" alt="jenkins" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-ar21.svg" alt="gitlab" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" alt="tensorflow" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg" alt="pytorch" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg" alt="terraform" height="50" width="120">
-          </p>
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="JavaScript">
+          <span>JavaScript</span>
         </div>
-        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <h4 style="text-align:left;color:#12d640">Tools & Methodologies</h4>
-          <p style="text-align:left;">
-            <img src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg" alt="linux" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="git" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg" alt="postman" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg" alt="jira" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/redis/redis-ar21.svg" alt="redis" height="50" width="120">
-            <img src="https://www.vectorlogo.zone/logos/salesforce/salesforce-ar21.svg" alt="salesforce" height="50" width="120">
-          </p>
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="TypeScript">
+          <span>TypeScript</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
+          <span>Python</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="React">
+          <span>React.js</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-icon fas fa-flask"></i>
+          <span>Flask</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="Node.js">
+          <span>Node.js</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/angular/angular-icon.svg" alt="Angular">
+          <span>Angular</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" alt="Bootstrap">
+          <span>Bootstrap</span>
         </div>
       </div>
     </div>
+
+    <!-- Databases & Cloud --><div class="skills-category">
+  <h4>Databases & Cloud</h4>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="MySQL">
+      <span>MySQL</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL">
+      <span>PostgreSQL</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="AWS">
+      <span>AWS</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/salesforce/salesforce-icon.svg" alt="Salesforce">
+      <span>Salesforce</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="Terraform">
+      <span>Terraform</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="Docker">
+      <span>Docker</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes">
+      <span>Kubernetes</span>
+    </div>
   </div>
-</section>
+</div>
+
+<!-- Data Analysis -->
+<div class="skills-category">
+  <h4>Data Analysis</h4>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-icon.svg" alt="Power BI">
+      <span>Power BI</span>
+    </div>
+    <div class="skill-item">
+      <i class="fa-icon fas fa-chart-bar"></i>
+      <span>Tableau</span>
+    </div>
+    <div class="skill-item">
+      <i class="fa-icon fas fa-file-excel"></i>
+      <span>Advanced Excel</span>
+    </div>
+  </div>
+</div>
+
+<!-- Version Control & Development Tools -->
+<div class="skills-category">
+  <h4>Version Control & Development Tools</h4>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
+      <span>Git/GitHub</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="Jenkins">
+      <span>Jenkins</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="GitLab">
+      <span>GitLab CI/CD</span>
+    </div>
+    <div class="skill-item">
+      <i class="fa-icon fas fa-vial"></i>
+      <span>Junit</span>
+    </div>
+  </div>
+</div>
+
+<!-- Product Management Tools -->
+<div class="skills-category">
+  <h4>Product Management Tools</h4>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg" alt="Jira">
+      <span>Jira</span>
+    </div>
+    <div class="skill-item">
+      <i class="fa-icon fas fa-book"></i>
+      <span>Confluence</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://www.vectorlogo.zone/logos/slack/slack-icon.svg" alt="Slack">
+      <span>Slack</span>
+    </div>
+  </div>
+</div>
 <!-- End Skills Section -->
 
 
-
+<div class="section-divider"></div>
 
   <!-- Start Links section -->
   <section id="links" class="services">
@@ -690,8 +812,8 @@
           <p class="description" style="color:#fff;">The link contains downloadable resume</p>
         </div>
         <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
-          <a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank"><div class="icon"><i class="icofont-link"></i></div></a>
-          <h4 class="title"><a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank">LeetCode Repository</a></h4>
+          <a href="https://github.com/LeetCode_Problems" target="_blank"><div class="icon"><i class="icofont-link"></i></div></a>
+          <h4 class="title"><a href="https://github.com/LeetCode_Problems" target="_blank">LeetCode Repository</a></h4>
           <p class="description" style="color:#fff;"> The github repository contains leetcode problems solution in python.</p>
         </div>
         <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -703,7 +825,7 @@
     </div>
   </section> <!--End Links Section -->
 
-
+  <div class="section-divider"></div>
   <!-- Start Contact Section -->    
 <section id="contacts" class="contact">     
   <div class="container">
@@ -749,12 +871,8 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
@@ -767,6 +885,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 

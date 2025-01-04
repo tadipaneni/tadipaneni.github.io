@@ -2,9 +2,7 @@
 
 Welcome to my portfolio website! Visit the live website: [https://tadipaneni.github.io](https://tadipaneni.github.io)
 
-## 🌟 Features
 
-[Previous features remain the same...]
 
 ## 🚀 Deployment Steps
 
